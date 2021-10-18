@@ -1,25 +1,18 @@
-import logo from "./logo.svg";
-import "./App.css";
+import RestaurantScreen from "./RestaurantScreen.js";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <RestaurantScreen />
     </div>
   );
 }
 
 export default App;
+/*
+API KEY : fwvNFKji7z0TOl5KCzrKwNLt6e2H5m7k
+*/
+
+//In React TDD it is common to write what we want (code you wish you had)
+//This can include writing components that don't yet exist knowing we will add them
+//in the future.
